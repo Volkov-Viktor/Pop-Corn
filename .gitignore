@@ -1,0 +1,63 @@
+echo "# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+out/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sdf
+*.opensdf
+*.suo
+*.ncb
+*.db
+*.tlog
+*.log
+
+# IntelliSense
+*.ipch
+*.aps
+
+# Temporary files
+*.tmp
+*.tmp_*
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Other
+*.swp
+*.nfs
+
+# macOS files
+.DS_Store
+
+# Python files (if any)
+__pycache__/
+*.pyc
+
+# Backup files
+*~
+" > .
