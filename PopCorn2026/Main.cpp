@@ -147,7 +147,7 @@ ATOM AsMain_Window::Register_Class()
 	wcex.hIcon = LoadIcon(Instance, MAKEINTRESOURCE(IDI_APP_ICON));
 	wcex.hCursor = LoadCursor(nullptr, IDC_ARROW);
 	wcex.hbrBackground = AsConfig::BG_Color.Get_Brush();
-	wcex.lpszMenuName = nullptr;
+	wcex.lpszMenuName = MAKEINTRESOURCE(IDR_MENU);
 	wcex.lpszClassName = Window_Class_Name.Get_Content();
 	wcex.hIconSm = LoadIcon(Instance, MAKEINTRESOURCE(IDI_SMALL_ICON));
 

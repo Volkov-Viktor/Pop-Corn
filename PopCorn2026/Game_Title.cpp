@@ -89,7 +89,6 @@ void AsGame_Title::Act()
 	case EGame_Title_State::Finished:
 		break;
 
-
 	default:
 		break;
 	}
